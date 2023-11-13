@@ -21,6 +21,7 @@
     />
 
     <link rel="stylesheet" href="styles.css" />
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <bod>
     <!-- ========== Start NAVBAR Section ========== -->
@@ -82,7 +83,7 @@
               <a href="services.html" class="btn btn-white">Learn with us</a>
             </div>
           </div>
-          <div class="section-hero--image">
+          <div class="section-hero--image" data-aos="fade-left">
             <figure>
               <img
                 src="./images/main-hero1.webp"
@@ -132,7 +133,7 @@
       </div>
 
       <div class="container grid grid-three--cols">
-        <div class="about-div">
+        <div class="about-div" data-aos="fade-down">
           <div class="icon">
             <img src="images/research.webp" alt="thapa eduhub research team" />
           </div>
@@ -144,7 +145,7 @@
           </p>
         </div>
 
-        <div class="about-div">
+        <div class="about-div" data-aos="fade-down"  data-aos-delay="300">
           <div class="icon">
             <img src="images/design.webp" alt="thapa eduhub research team" />
           </div>
@@ -155,7 +156,7 @@
           </p>
         </div>
 
-        <div class="about-div">
+        <div class="about-div" data-aos="fade-down"  data-aos-delay="600">
           <div class="icon">
             <img src="images/Coding.webp" alt="thapa eduhub research team" />
           </div>
@@ -298,7 +299,7 @@
 
           <!--? center part of image  -->
 
-          <div class="choose-center--div">
+          <div class="choose-center--div" data-aos="zoom-in">
             <figure>
               <img src="./images/mobile.webp" alt="thapa technical offical new website ">
             </figure>
@@ -438,5 +439,10 @@
 
     
     <!-- ========== End   FOOTER Section ========== -->
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
